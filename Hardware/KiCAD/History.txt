@@ -1,0 +1,21 @@
+Goal:
+THT
+No bigger than original board
+Economise where possible
+Include serial & other connector - just in case.
+
+SoFar:
+Board outline is approx 80% of the original
+All done first draft.
+Options for connection to GNDA, GNDD or both.
+
+ToDo:
+Check.
+Check size of TFT board when over-laid
+Check values of components - as per schematic or prototype diag?
+Confirm THT vs SMT
+
+
+
+
+
