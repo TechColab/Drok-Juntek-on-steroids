@@ -25,6 +25,8 @@ Confirm THT not SMT
 Add TestPoint for flying-wire to Vin
 Add solder bridge option for Vin_sense
 Chane I2C pin order
+2021-03-21
+Renamed to correct spelling!
 
 
 WIP:

@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6-0-10_14)"
     },
-    "CreationDate":  "2021-03-20T02:01:16+00:00"
+    "CreationDate":  "2021-03-21T15:45:56+00:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "JunketOnSteroidsTTGO",
-      "GUID": "4a756e6b-6574-44f6-9e53-7465726f6964",
+      "Name": "JuntetOnSteroidsTTGO",
+      "GUID": "4a756e74-6574-44f6-9e53-7465726f6964",
       "Revision": "0.3"
     },
     "Size":
@@ -32,55 +32,53 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "MinLineWidth":  0.250
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "JunketOnSteroidsTTGO-F_Cu.gtl",
+      "Path":  "JuntetOnSteroidsTTGO-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-B_Cu.gbl",
+      "Path":  "JuntetOnSteroidsTTGO-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-F_Paste.gtp",
+      "Path":  "JuntetOnSteroidsTTGO-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-B_Paste.gbp",
+      "Path":  "JuntetOnSteroidsTTGO-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-F_SilkS.gto",
+      "Path":  "JuntetOnSteroidsTTGO-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-B_SilkS.gbo",
+      "Path":  "JuntetOnSteroidsTTGO-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-F_Mask.gts",
+      "Path":  "JuntetOnSteroidsTTGO-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-B_Mask.gbs",
+      "Path":  "JuntetOnSteroidsTTGO-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "JunketOnSteroidsTTGO-Edge_Cuts.gm1",
+      "Path":  "JuntetOnSteroidsTTGO-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
