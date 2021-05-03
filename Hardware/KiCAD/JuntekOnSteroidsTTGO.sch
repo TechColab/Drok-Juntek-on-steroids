@@ -5,8 +5,8 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 1 1
 Title "Drok/Juntek-on-steroids"
-Date "2021-03-21"
-Rev "0.4"
+Date "2021-05-03"
+Rev "0.5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -71,13 +71,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 60548EC3
-P 4100 3950
-F 0 "J6" V 4100 4100 50  0000 L CNN
-F 1 "I2C" V 4200 3700 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4100 3950 50  0001 C CNN
-F 3 "~" H 4100 3950 50  0001 C CNN
-	1    4100 3950
-	0    1    1    0   
+P 4000 3950
+F 0 "J6" V 4000 4100 50  0000 L CNN
+F 1 "I2C" V 4100 3700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4000 3950 50  0001 C CNN
+F 3 "~" H 4000 3950 50  0001 C CNN
+	1    4000 3950
+	0    -1   1    0   
 $EndComp
 Text Label 4050 2950 0    50   ~ 0
 VCC

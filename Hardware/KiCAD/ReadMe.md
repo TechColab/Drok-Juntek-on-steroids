@@ -27,6 +27,10 @@ Add solder bridge option for Vin_sense
 Chane I2C pin order
 2021-03-21
 Renamed to correct spelling!
+2021-05-03
+Change pin numbering on I2C to match DFRobot pinout.
+Re-route traces for I2C to ease changing to other pinouts.
+Move Gerbers to sub-folder for neatness & easier handling.
 
 
 WIP:
