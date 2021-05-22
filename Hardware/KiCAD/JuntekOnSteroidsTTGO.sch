@@ -196,7 +196,7 @@ F 3 "~" H 3100 2900 50  0001 C CNN
 	1    3100 2900
 	1    0    0    -1  
 $EndComp
-Text Label 4250 1700 0    50   ~ 0
+Text Label 4250 1600 0    50   ~ 0
 ADC0
 $Comp
 L power:GNDD #PWR0104
@@ -312,12 +312,12 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP1
 U 1 1 60589602
-P 4250 1700
-F 0 "TP1" V 4250 1950 50  0000 C CNN
-F 1 "ADC0" V 4350 1950 50  0000 C CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 4450 1700 50  0001 C CNN
-F 3 "~" H 4450 1700 50  0001 C CNN
-	1    4250 1700
+P 4250 1600
+F 0 "TP1" V 4250 1850 50  0000 C CNN
+F 1 "ADC0" V 4350 1850 50  0000 C CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 4450 1600 50  0001 C CNN
+F 3 "~" H 4450 1600 50  0001 C CNN
+	1    4250 1600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -371,7 +371,7 @@ U 1 1 60567DD7
 P 9250 2850
 F 0 "C8" H 9100 2950 50  0000 L CNN
 F 1 "0.1µ" H 9100 3100 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9288 2700 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 9288 2700 50  0001 C CNN
 F 3 "~" H 9250 2850 50  0001 C CNN
 	1    9250 2850
 	1    0    0    -1  
@@ -529,7 +529,7 @@ U 1 1 60BB9504
 P 5700 1700
 F 0 "J8" V 5796 1012 50  0000 R CNN
 F 1 "Conn_02x12_Odd_Even" V 5705 1012 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical" H 5700 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal" H 5700 1700 50  0001 C CNN
 F 3 "~" H 5700 1700 50  0001 C CNN
 	1    5700 1700
 	0    -1   -1   0   
@@ -681,4 +681,61 @@ F 3 "~" H 3350 4100 50  0001 C CNN
 	1    3350 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C1
+U 1 1 60A8437B
+P 7950 1950
+F 0 "C1" H 7800 2050 50  0000 L CNN
+F 1 "0.1µ" H 7800 2200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7988 1800 50  0001 C CNN
+F 3 "~" H 7950 1950 50  0001 C CNN
+	1    7950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60A8638B
+P 8250 1950
+F 0 "C2" H 8100 2050 50  0000 L CNN
+F 1 "0.1µ" H 8100 2200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8288 1800 50  0001 C CNN
+F 3 "~" H 8250 1950 50  0001 C CNN
+	1    8250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60A8822B
+P 7950 2500
+F 0 "C3" H 7800 2600 50  0000 L CNN
+F 1 "0.1µ" H 7800 2750 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7988 2350 50  0001 C CNN
+F 3 "~" H 7950 2500 50  0001 C CNN
+	1    7950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60A8A0CB
+P 8250 2500
+F 0 "C4" H 8100 2600 50  0000 L CNN
+F 1 "0.1µ" H 8100 2750 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8288 2350 50  0001 C CNN
+F 3 "~" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60A8AD01
+P 4250 1100
+F 0 "TP3" V 4250 1350 50  0000 C CNN
+F 1 "ADC2" V 4350 1350 50  0000 C CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 4450 1100 50  0001 C CNN
+F 3 "~" H 4450 1100 50  0001 C CNN
+	1    4250 1100
+	0    -1   -1   0   
+$EndComp
+Text Label 4250 1100 0    50   ~ 0
+ADC1
 $EndSCHEMATC
