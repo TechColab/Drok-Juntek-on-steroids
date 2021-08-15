@@ -347,12 +347,12 @@ $EndComp
 $Comp
 L Device:R R17
 U 1 1 60BC63B7
-P 4150 4650
-F 0 "R17" V 4150 4650 50  0000 C CNN
-F 1 "1k" V 4250 4650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 4650 50  0001 C CNN
-F 3 "~" H 4150 4650 50  0001 C CNN
-	1    4150 4650
+P 3950 4650
+F 0 "R17" V 3950 4650 50  0000 C CNN
+F 1 "1k/zero" V 4050 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3880 4650 50  0001 C CNN
+F 3 "~" H 3950 4650 50  0001 C CNN
+	1    3950 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -500,7 +500,7 @@ Text Label 8850 5700 3    50   ~ 0
 GPIO13
 Text Label 8750 5700 3    50   ~ 0
 GPIO17
-Text Label 4150 5900 0    50   ~ 0
+Text Label 3950 5900 0    50   ~ 0
 Shunt
 Text Label 8350 5700 3    50   ~ 0
 GND
@@ -753,10 +753,7 @@ F 3 "~" H 4250 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 4250 4150 4500
-Connection ~ 4150 4250
-Wire Wire Line
-	4150 4250 7100 4250
+	3950 4250 3950 4500
 Wire Wire Line
 	4850 4200 4850 5000
 Wire Wire Line
@@ -808,11 +805,8 @@ Wire Wire Line
 	4900 2900 6500 2900
 Wire Wire Line
 	6500 2900 6500 3450
-Connection ~ 4050 4100
 Wire Wire Line
-	4050 4100 6400 4100
-Wire Wire Line
-	3000 4100 4050 4100
+	3000 4100 3300 4100
 Wire Wire Line
 	4050 2900 4050 2850
 Wire Wire Line
@@ -835,14 +829,6 @@ Wire Wire Line
 Connection ~ 6700 3450
 Wire Wire Line
 	4050 3900 4050 3200
-Wire Wire Line
-	4050 4100 4050 5100
-Wire Wire Line
-	2750 5100 4050 5100
-Wire Wire Line
-	3950 5000 3950 4250
-Wire Wire Line
-	3950 4250 4150 4250
 Wire Wire Line
 	2750 5000 3950 5000
 Wire Wire Line
@@ -982,5 +968,50 @@ Wire Wire Line
 Wire Wire Line
 	9450 5650 9450 5700
 Wire Wire Line
-	4150 4800 4150 5900
+	3950 4800 3950 5000
+$Comp
+L Device:R R1004
+U 1 1 611A29B7
+P 3100 5100
+F 0 "R1004" V 3100 5100 50  0000 C CNN
+F 1 "100k/zero" V 3000 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3030 5100 50  0001 C CNN
+F 3 "~" H 3100 5100 50  0001 C CNN
+	1    3100 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1005
+U 1 1 611BB67B
+P 3500 5100
+F 0 "R1005" V 3500 5100 50  0000 C CNN
+F 1 "1k/none" V 3400 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 5100 50  0001 C CNN
+F 3 "~" H 3500 5100 50  0001 C CNN
+	1    3500 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 5100 2950 5100
+Wire Wire Line
+	3250 5100 3300 5100
+Wire Wire Line
+	3650 5100 3700 5100
+Wire Wire Line
+	3700 5100 3700 5200
+Wire Wire Line
+	3300 5100 3300 4100
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3350 5100
+Connection ~ 3300 4100
+Wire Wire Line
+	3300 4100 6400 4100
+Text Label 3700 5200 0    50   ~ 0
+GND
+Wire Wire Line
+	3950 4250 7100 4250
+Connection ~ 3950 5000
+Wire Wire Line
+	3950 5000 3950 5900
 $EndSCHEMATC

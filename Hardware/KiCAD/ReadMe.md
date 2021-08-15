@@ -47,7 +47,8 @@ Add pin for LoadPWM function so TTGO can connect the load by MOSFET and do contr
 Separate expansion connector into 2 separate rows for easier positioning & allow SIL only option.
 Put external connections, including power, I2C, serial, DAC in a breadboard-friendly row.
 Remove extra I2C, serial & power SIL headers as all can be accessed form the expansion SIL.
-
+Set outline based on worst of DKP6012 & B3603, 1 col less on west, 1 row extra on north.
+Add a spreadsheet table comparing pinouts of different PSUs & TTGO functions/restrictions.
 
 # Need:
 passive component values which match in both layout and schematic.
