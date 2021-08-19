@@ -52,7 +52,11 @@ Add a spreadsheet table comparing pinouts of different PSUs & TTGO functions/res
 ### 2021-08-17
 Remove unwanted resistor, rename a few resistors & two jumpers.
 Add a jumper to break AltVinSense from J1.7 for models when CV/CC is on J1.3 & FanPWM is on J1.7
-
+### 2021-08-19
+Replace complex series of solder-bridge jumpers with a wire-patch-field.
+Replace DIL expansion connector with SIL to free up board space & make easier for end-users.
+Move TTGO south a bit for clearance with PSU cap.  Added a couple of caps on the 3.3V line.
+Added a bit on north & west but still within consensus footprint.
 
 # Need:
 passive component values which match in both layout and schematic.

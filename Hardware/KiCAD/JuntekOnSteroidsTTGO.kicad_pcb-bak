@@ -1855,7 +1855,7 @@
     (tags fiducial)
     (path /60567887)
     (attr smd)
-    (fp_text reference FID2 (at 0 -1.27 180) (layer F.SilkS)
+    (fp_text reference FID2 (at 1.27 -0.635 180) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value Fiducial (at -4.445 0) (layer F.Fab)

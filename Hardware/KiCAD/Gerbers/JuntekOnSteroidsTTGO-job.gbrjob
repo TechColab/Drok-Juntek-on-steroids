@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6-0-10_14)"
     },
-    "CreationDate":  "2021-05-22T11:08:59+01:00"
+    "CreationDate":  "2021-08-19T15:45:43+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,11 +15,11 @@
     {
       "Name": "JuntekOnSteroidsTTGO",
       "GUID": "4a756e74-656b-44f6-9e53-7465726f6964",
-      "Revision": "2.0"
+      "Revision": "2.3"
     },
     "Size":
     {
-      "X": 52.120,
+      "X": 54.660,
       "Y": 34.340
     },
     "LayerNumber": 2,
