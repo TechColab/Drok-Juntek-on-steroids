@@ -57,6 +57,7 @@ Replace complex series of solder-bridge jumpers with a wire-patch-field.
 Replace DIL expansion connector with SIL to free up board space & make easier for end-users.
 Move TTGO south a bit for clearance with PSU cap.  Added a couple of caps on the 3.3V line.
 Added a bit on north & west but still within consensus footprint.
+Tweaked to avoid PSU capacitors on B3603.
 
 # Need:
 passive component values which match in both layout and schematic.
