@@ -830,43 +830,10 @@ Wire Wire Line
 Connection ~ 4050 5700
 Wire Wire Line
 	4050 5700 4250 5700
-$Comp
-L Connector_Generic:Conn_01x02 J23
-U 1 1 618B9DDF
-P 3500 3950
-F 0 "J23" H 3500 3750 50  0000 C CNN
-F 1 "patch" V 3600 3900 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 3950 50  0001 C CNN
-F 3 "~" H 3500 3950 50  0001 C CNN
-	1    3500 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J21
-U 1 1 618C97C3
-P 3500 3600
-F 0 "J21" H 3400 3800 50  0000 C CNN
-F 1 "patch" V 3500 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3500 3600 50  0001 C CNN
-F 3 "~" H 3500 3600 50  0001 C CNN
-	1    3500 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 4600 10200 4600
 Wire Wire Line
 	10050 4800 10250 4800
-$Comp
-L Connector_Generic:Conn_01x04 J22
-U 1 1 61903835
-P 3600 3600
-F 0 "J22" H 3500 3800 50  0000 C CNN
-F 1 "patch" V 3600 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3600 3600 50  0001 C CNN
-F 3 "~" H 3600 3600 50  0001 C CNN
-	1    3600 3600
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 3500 4050 3750
 Connection ~ 4050 3750
@@ -917,7 +884,7 @@ U 1 1 61BB2313
 P 2600 3600
 F 0 "J11" H 2600 3800 50  0000 C CNN
 F 1 "patch" V 2700 3600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2600 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 2600 3600 50  0001 C CNN
 F 3 "~" H 2600 3600 50  0001 C CNN
 	1    2600 3600
 	1    0    0    -1  
@@ -937,13 +904,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J61
 U 1 1 61BF9BF7
-P 2600 3000
-F 0 "J61" H 2600 2800 50  0000 C CNN
-F 1 "patch" V 2700 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2600 3000 50  0001 C CNN
-F 3 "~" H 2600 3000 50  0001 C CNN
-	1    2600 3000
-	1    0    0    -1  
+P 2600 3100
+F 0 "J61" H 2600 2900 50  0000 C CNN
+F 1 "patch" V 2700 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2600 3100 50  0001 C CNN
+F 3 "~" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J12
@@ -951,7 +918,7 @@ U 1 1 61C0CDF3
 P 2600 4100
 F 0 "J12" H 2600 3900 50  0000 C CNN
 F 1 "patch" V 2700 4100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2600 4100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 2600 4100 50  0001 C CNN
 F 3 "~" H 2600 4100 50  0001 C CNN
 	1    2600 4100
 	1    0    0    -1  
@@ -1030,4 +997,26 @@ Connection ~ 10150 5350
 Wire Wire Line
 	9900 5050 10150 5050
 Connection ~ 10150 5050
+$Comp
+L Connector_Generic:Conn_01x02 J22
+U 1 1 618B9DDF
+P 3500 4050
+F 0 "J22" H 3400 4100 50  0000 C CNN
+F 1 "patch" V 3600 4000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3500 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J21
+U 1 1 61296448
+P 3500 3600
+F 0 "J21" H 3550 3800 50  0000 C CNN
+F 1 "patch" V 3550 3550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal" H 3500 3600 50  0001 C CNN
+F 3 "~" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

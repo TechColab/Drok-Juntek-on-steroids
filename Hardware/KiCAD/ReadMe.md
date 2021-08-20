@@ -58,6 +58,11 @@ Replace DIL expansion connector with SIL to free up board space & make easier fo
 Move TTGO south a bit for clearance with PSU cap.  Added a couple of caps on the 3.3V line.
 Added a bit on north & west but still within consensus footprint.
 Tweaked to avoid PSU capacitors on B3603.
+### 2021-08-20
+Replaced patch holes with 90-degree pin headers to allow use of common FM-FM jumper wires while avoiding TTGO overhang.
+N.B. The horizontal pins closely interspace the solder side of the motherboard headder.
+So I'd trim the excee from the motherboard headder first, then solder the patch headders while not fully pushed down.
+Can also omit the patch headers and hard-wire.
 
 # Need:
 passive component values which match in both layout and schematic.
