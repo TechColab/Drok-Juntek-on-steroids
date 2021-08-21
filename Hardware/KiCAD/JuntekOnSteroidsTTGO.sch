@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Drok/Juntek-on-steroids"
-Date "2021-08-19"
-Rev "2.3"
+Date "2021-08-21"
+Rev "2.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -418,17 +418,15 @@ Connection ~ 9150 4000
 Wire Wire Line
 	9450 4000 9850 4000
 Connection ~ 9450 4000
-Text Label 9150 5500 1    50   ~ 0
+Text Label 8450 5600 1    50   ~ 0
 SDA
-Text Label 9050 5500 1    50   ~ 0
+Text Label 8550 5600 1    50   ~ 0
 SCL
-Text Label 8850 5500 1    50   ~ 0
+Text Label 8750 5600 1    50   ~ 0
 GPIO13
-Text Label 8950 5500 1    50   ~ 0
+Text Label 8650 5600 1    50   ~ 0
 GPIO17
-Text Label 9350 5500 1    50   ~ 0
-GND
-Text Label 8350 5500 1    50   ~ 0
+Text Label 8250 5600 1    50   ~ 0
 GND
 Text Label 2200 3500 0    50   ~ 0
 J1.1
@@ -695,17 +693,17 @@ Text Label 2200 3800 0    50   ~ 0
 J1.4
 Text Label 1750 3900 2    50   ~ 0
 Vset
-Text Label 8750 5500 1    50   ~ 0
+Text Label 8950 5600 1    50   ~ 0
 GPIO12
-Text Label 8650 5500 1    50   ~ 0
+Text Label 9050 5600 1    50   ~ 0
 GPIO25
-Text Label 8550 5500 1    50   ~ 0
+Text Label 9150 5600 1    50   ~ 0
 GPIO26
-Text Label 8450 5500 1    50   ~ 0
+Text Label 9250 5600 1    50   ~ 0
 GPIO27
-Text Label 9250 5500 1    50   ~ 0
+Text Label 8350 5600 1    50   ~ 0
 +3V3
-Text Label 8250 5500 1    50   ~ 0
+Text Label 9350 5600 1    50   ~ 0
 +5V
 Wire Wire Line
 	6900 5100 6900 5550
@@ -717,30 +715,6 @@ Text Label 1750 2900 2    50   ~ 0
 LoadPWM
 Text Label 1750 3000 2    50   ~ 0
 IloadSense
-Wire Wire Line
-	9350 5500 9350 5550
-Wire Wire Line
-	9250 5550 9250 5500
-Wire Wire Line
-	9150 5500 9150 5550
-Wire Wire Line
-	9050 5550 9050 5500
-Wire Wire Line
-	8950 5500 8950 5550
-Wire Wire Line
-	8850 5550 8850 5500
-Wire Wire Line
-	8750 5500 8750 5550
-Wire Wire Line
-	8650 5550 8650 5500
-Wire Wire Line
-	8550 5500 8550 5550
-Wire Wire Line
-	8450 5550 8450 5500
-Wire Wire Line
-	8350 5500 8350 5550
-Wire Wire Line
-	8250 5550 8250 5500
 $Comp
 L Device:R R14
 U 1 1 611BB67B
@@ -1019,4 +993,30 @@ F 3 "~" H 3500 3600 50  0001 C CNN
 	1    3500 3600
 	1    0    0    -1  
 $EndComp
+Text Label 8850 5600 1    50   ~ 0
+GPIO2
+Wire Wire Line
+	8250 5600 8250 5700
+Wire Wire Line
+	8350 5600 8350 5700
+Wire Wire Line
+	8450 5600 8450 5700
+Wire Wire Line
+	8550 5600 8550 5700
+Wire Wire Line
+	8650 5600 8650 5700
+Wire Wire Line
+	8750 5600 8750 5700
+Wire Wire Line
+	8850 5600 8850 5700
+Wire Wire Line
+	8950 5600 8950 5700
+Wire Wire Line
+	9050 5600 9050 5700
+Wire Wire Line
+	9150 5600 9150 5700
+Wire Wire Line
+	9250 5600 9250 5700
+Wire Wire Line
+	9350 5600 9350 5700
 $EndSCHEMATC

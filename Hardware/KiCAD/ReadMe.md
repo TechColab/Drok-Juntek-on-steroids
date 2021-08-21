@@ -63,6 +63,8 @@ Replaced patch holes with 90-degree pin headers to allow use of common FM-FM jum
 N.B. The horizontal pins closely interspace the solder side of the motherboard headder.
 So I'd trim the excee from the motherboard headder first, then solder the patch headders while not fully pushed down.
 Can also omit the patch headers and hard-wire.
+### 2021-08-21
+Initial routing and grounding done.
 
 # Need:
 passive component values which match in both layout and schematic.
