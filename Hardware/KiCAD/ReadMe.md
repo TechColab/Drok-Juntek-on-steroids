@@ -65,6 +65,10 @@ So I'd trim the excee from the motherboard headder first, then solder the patch 
 Can also omit the patch headers and hard-wire.
 ### 2021-08-21
 Initial routing and grounding done.
+### 2021-08-22
+Move small caps a bit. Drop LoadPWM from top left & add AltVinSense.
+Remove a res & add one.
+
 
 # Need:
 passive component values which match in both layout and schematic.

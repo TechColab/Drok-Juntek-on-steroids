@@ -327,7 +327,7 @@ L Device:R R17
 U 1 1 60BC63B7
 P 5200 4150
 F 0 "R17" V 5200 4150 50  0000 C CNN
-F 1 "1k/zero" V 5300 4150 50  0000 C CNN
+F 1 "1k/zero" V 5250 3900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5130 4150 50  0001 C CNN
 F 3 "~" H 5200 4150 50  0001 C CNN
 	1    5200 4150
@@ -336,12 +336,12 @@ $EndComp
 $Comp
 L Device:R R20
 U 1 1 60BCC05A
-P 4050 5500
-F 0 "R20" V 4050 5500 50  0000 C CNN
-F 1 "100k/none" V 4150 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3980 5500 50  0001 C CNN
-F 3 "~" H 4050 5500 50  0001 C CNN
-	1    4050 5500
+P 4100 5500
+F 0 "R20" V 4100 5500 50  0000 C CNN
+F 1 "100k/none" V 4200 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4030 5500 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -585,26 +585,10 @@ Wire Notes Line
 	7950 3300 7800 3300
 Wire Notes Line
 	5900 5900 5900 3100
-Wire Wire Line
-	4250 5650 4250 5700
-Text Label 4250 5700 0    50   ~ 0
+Text Label 4350 5700 0    50   ~ 0
 GND
-$Comp
-L Device:R R19
-U 1 1 61C6481B
-P 4250 5500
-F 0 "R19" V 4250 5500 50  0000 C CNN
-F 1 "10k/none" V 4350 5600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4180 5500 50  0001 C CNN
-F 3 "~" H 4250 5500 50  0001 C CNN
-	1    4250 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 5200 6600 5550
-Wire Wire Line
-	4250 5350 4250 5100
-Connection ~ 4250 5100
 $Comp
 L Device:R R15
 U 1 1 61EDD6D4
@@ -617,13 +601,9 @@ F 3 "~" H 4800 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 5700 4800 5700
-Wire Wire Line
 	4800 5700 4800 5650
 Wire Wire Line
 	6900 4350 6900 4650
-Wire Wire Line
-	7000 4300 7000 4650
 Wire Wire Line
 	6700 2800 6700 3450
 Wire Wire Line
@@ -708,11 +688,9 @@ Text Label 9350 5600 1    50   ~ 0
 Wire Wire Line
 	6900 5100 6900 5550
 Wire Wire Line
-	4250 5100 6900 5100
-Wire Wire Line
 	6800 5500 6800 5550
 Text Label 1750 2900 2    50   ~ 0
-LoadPWM
+AltVinSense
 Text Label 1750 3000 2    50   ~ 0
 IloadSense
 $Comp
@@ -726,9 +704,8 @@ F 3 "~" H 3900 5500 50  0001 C CNN
 	1    3900 5500
 	-1   0    0    1   
 $EndComp
-Connection ~ 4250 5700
 Wire Wire Line
-	4050 5650 4050 5700
+	4100 5650 4100 5700
 $Comp
 L Device:R R11
 U 1 1 60BC4267
@@ -768,9 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4350 6900 4350
 Wire Wire Line
-	3100 3700 3100 4300
-Wire Wire Line
-	3100 4300 7000 4300
+	3100 3700 3100 4250
 Wire Wire Line
 	6400 3450 6400 3850
 Wire Wire Line
@@ -800,19 +775,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 4150 7100 4650
 Wire Wire Line
-	4050 3750 4050 5350
-Connection ~ 4050 5700
-Wire Wire Line
-	4050 5700 4250 5700
-Wire Wire Line
 	10050 4600 10200 4600
 Wire Wire Line
 	10050 4800 10250 4800
 Wire Wire Line
 	4050 3500 4050 3750
-Connection ~ 4050 3750
-Wire Wire Line
-	4050 3750 6200 3750
 Wire Wire Line
 	4000 3600 4000 3800
 Wire Wire Line
@@ -826,8 +793,6 @@ Wire Wire Line
 Connection ~ 3900 3900
 Wire Wire Line
 	3900 3900 6500 3900
-Wire Wire Line
-	3900 5700 4050 5700
 Wire Wire Line
 	3200 3800 3300 3800
 Wire Wire Line
@@ -876,14 +841,14 @@ Wire Wire Line
 Wire Wire Line
 	2150 3800 2900 3800
 $Comp
-L Connector_Generic:Conn_01x02 J61
+L Connector_Generic:Conn_01x03 J61
 U 1 1 61BF9BF7
-P 2600 3100
-F 0 "J61" H 2600 2900 50  0000 C CNN
-F 1 "patch" V 2700 3050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2600 3100 50  0001 C CNN
-F 3 "~" H 2600 3100 50  0001 C CNN
-	1    2600 3100
+P 2600 3000
+F 0 "J61" H 2600 2800 50  0000 C CNN
+F 1 "patch" V 2700 2950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 2600 3000 50  0001 C CNN
+F 3 "~" H 2600 3000 50  0001 C CNN
+	1    2600 3000
 	1    0    0    1   
 $EndComp
 $Comp
@@ -917,13 +882,7 @@ Text Label 4850 4650 0    50   ~ 0
 FanPWM
 Text Label 4800 4650 2    50   ~ 0
 NotEnable
-Wire Wire Line
-	2850 2900 2850 5100
-Wire Wire Line
-	2850 5100 4250 5100
-Wire Wire Line
-	2150 2900 2850 2900
-Text Label 2850 4650 0    50   ~ 0
+Text Label 6900 5100 0    50   ~ 0
 LoadPWM
 Wire Notes Line
 	3800 4500 3800 2650
@@ -1019,4 +978,35 @@ Wire Wire Line
 	9250 5600 9250 5700
 Wire Wire Line
 	9350 5600 9350 5700
+$Comp
+L Device:R R13
+U 1 1 61232F23
+P 5200 4250
+F 0 "R13" V 5200 4250 50  0000 C CNN
+F 1 "1k/zero" V 5150 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5130 4250 50  0001 C CNN
+F 3 "~" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 4250 7000 4250
+Wire Wire Line
+	5050 4250 3100 4250
+Wire Wire Line
+	7000 4250 7000 4650
+Wire Wire Line
+	2150 2900 2400 2900
+Wire Wire Line
+	3900 5700 4100 5700
+Wire Wire Line
+	2400 2900 4100 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	4050 3750 6200 3750
+Wire Wire Line
+	4100 2900 4100 5350
+Connection ~ 4100 5700
+Wire Wire Line
+	4100 5700 4800 5700
 $EndSCHEMATC
