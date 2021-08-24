@@ -68,6 +68,11 @@ Initial routing and grounding done.
 ### 2021-08-22
 Move small caps a bit. Drop LoadPWM from top left & add AltVinSense.
 Remove a res & add one.
+### 2021-08-24
+Re-allocate R14 to series between ADC3 & J21.8
+Change ADS1115 to be powered from 3.3V instead of 5V
+Add 5V, GND, +3.3V on 12,13,14 of the extension connector J30
+Labels for J30 etc.
 
 
 # Need:
@@ -80,7 +85,6 @@ Clarification regarding 2-way solder bridge for "ADC1(AD5) / GPIO29(ESP)"
 
 
 # ToDo:
-
 
 
 
